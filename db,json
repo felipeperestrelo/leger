@@ -1,0 +1,42 @@
+{
+   "start":[
+      {
+         "id":"lavoisier",
+         "message":"Sobre qual assunto você precisa de informações?",
+         "actions":[
+            {
+               "type":"intent",
+               "displayName":"Valores",
+               "value":"Valores"
+            },
+            {
+               "type":"intent",
+               "displayName":"Lista de Exames",
+               "value":"Lista de Exames"
+            },
+            {
+               "type":"intent",
+               "displayName":"Agendamento",
+               "value":"Agendamento"
+            },
+            {
+               "type":"intent",
+               "displayName":"Covid-19",
+               "value":"Covid-19"
+            },
+              {
+                  "type": "link",
+                  "displayName": "Consultar Link",
+                  "value": "https://www.dasa.com.br"
+              },
+              {
+                  "type": "back",
+                  "displayName": "Voltar",
+                  "value": ""
+              }
+         ],
+         "targetFlow":"f0aed463-a3ed-45d3-8419-7f6253a52c8c",
+         "sessionId":"nuk08la9ybk"
+      }
+   ]
+}
